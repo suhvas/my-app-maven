@@ -75,11 +75,13 @@
 				<outputDirectory>target/jacoco-out</outputDirectory>
 			</configuration>
 		</execution>
-	        <configuration>
+	        <!--
+		<configuration>
 			<systemPropertyVariables>
 				<jacoco-agent.destfile>target/jacoco.exec</jacoco-agent.destfile>
 		        </systemPropertyVariables>
-		</configuration>
+		</configuration> 
+		-->
 	    </executions>
 	</plugin>
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
