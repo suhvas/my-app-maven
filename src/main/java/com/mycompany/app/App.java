@@ -12,11 +12,6 @@ public class App
 	
     public static void main(String[] args){
 		App app = new App();
-		System.out.println(app.addNumbers(5, 9));
-		System.out.println("Testing");	
-		System.out.println("Testing");	
-		System.out.println("Testing");	
-		System.out.println("Testing");	
-		System.out.println("Testing");
+		System.out.println(app.addNumbers(5, 9));		
     }    
 }
